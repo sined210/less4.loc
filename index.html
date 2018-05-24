@@ -2,16 +2,324 @@
 <html lang="ru">
 <head>
     <meta charset="UTF-8">
-    <title>Лабутены</title>
+    <title>Bicycle world</title>
     <meta name="viewport" content="width=device-width, initial-scale=1.0, shrink-to-fit=no, viewport-fit=cover ">
     <link rel="stylesheet" href="styles.css">
     <script defer src="java.js"></script>
 </head>
 <body>
-    <header>
+<header>
+    <div class="header__top">
+        <nav class="header__top__nav">
+            <a href="#"><img src="#" alt="">Вход</a>
+            <a href="#"><img src="#" alt="">Избранное</a>
+            <a href="#"><img src="#" alt="">Сравнение</a>
+        </nav>
+        <div class="header__top__social">
+            <a href="#"><img src="#" alt="vk"></a>
+            <a href="#"><img src="#" alt="facebook"></a>
+            <a href="#"><img src="#" alt="twit"></a>
+        </div>
+    </div>
 
-    </header>
+    <div class="header__main">
+        <div class="header__logo">
+            <a href="#"><img src="#" alt="Logo"></a>
+        </div>
+        <div class="header__middle">
+            <div class="header__middle__contacts">
+                <address><img src="#" alt="phone">8(800)684-55-94</address>
+                <address><img src="#" alt="mail">info@nalabuten.ah</address>
+            </div>
+            <div class="header__middle__search">
+                <form method="get">
+                    <input name="search" type="text" placeholder="Введите поисковую фразу">
+                    <button type="submit"><img src="#" alt="search"></button>
+                </form>
+            </div>
+        </div>
+        <div class="header__basket">
+            <div>7 500 руб.</div>
+            <img src="#" alt="basket" class="header__basket__">
+        </div>
+    </div>
+</header>
+
+<nav>
+    <ul class="nav__menu">
+        <li class="nav__menu__item"><a href="#" class="nav__menu__link ">Главная</a></li>
+        <li class="nav__menu__item"><a href="#" class="nav__menu__link ">Каталог</a></li>
+        <li class="nav__menu__item"><a href="#" class="nav__menu__link ">Галерея</a></li>
+        <li class="nav__menu__item"><a href="#" class="nav__menu__link ">Акции</a></li>
+        <li class="nav__menu__item"><a href="#" class="nav__menu__link ">Контакты</a></li>
+    </ul>
+</nav>
+
+<div class="content">
+    <main>
+        <div class="main__slider">
+            <!-- тут будет слайдер-->
+        </div>
+        <div class="main__submenu">
+            <div class="submenu__sale">
+                <a href="#" class="sale__link">
+                    <img src="#" alt="#" class="sale__img">
+                    Продажа
+                </a>
+                <p class="sale__text">Широкий ассортимент моделей</p>
 
 
+            </div>
+
+            <div class="submenu__discount">
+                <a href="#" class="discount__link">
+                    <img src="#" alt="#" class="discount__img">
+                    Скидки
+                </a>
+                <p class="discount__text">Невообразимо низкие цены</p>
+            </div>
+
+            <div class="submenu__stock">
+                <a href="#" class="stock__link">
+                    <img src="#" alt="#" class="stock__img">
+                    Акции
+                </a>
+                <p class="discount__text">Широкий ассортимент моделей</p>
+
+            </div>
+        </div>
+        <section class="novelties">
+            <h2 class="novelties__title">Новинки</h2>
+            <article class="novelties__box box"> <!--Премлем ли етот тег или какокой другой подходит лутше для симантики?-->
+                <span class="novelties__box_label label ">new</span>
+                <img src="#" alt="" class="novelties__box__img box_img">
+                <h3 class="box__title">Bycicle name</h3>
+                <p class="box__price">35 000 р.</p>
+                <form class="form__box">
+                    <button class="form__box__basket">
+                        <img src="#" alt="basket" class="box__basket__img">
+                        в корзину
+                    </button>
+                    <button class="form__box__fastbuy">
+                        <img src="#" alt="" class="box__fastbuy__img">
+                    </button>
+                </form>
+            </article>
+            <article class="novelties__box box">
+                <span class="novelties__box_label label ">new</span>
+                <img src="#" alt="" class="novelties__box__img box_img">
+                <h3 class="box__title">Bycicle name</h3>
+                <p class="box__price">35 000 р.</p>
+                <form class="form__box">
+                    <button class="form__box__basket">
+                        <img src="#" alt="basket" class="box__basket__img ">
+                        в корзину
+                    </button>
+                    <button class="form__box__fastbuy">
+                        <img src="#" alt="" class="box__fastbuy__img">
+                    </button>
+                </form>
+            </article>
+            <article class="novelties__box box">
+                <span class="novelties__box_label label ">new</span>
+                <img src="#" alt="" class="novelties__box__img box_img">
+                <h3 class="box__title">Bycicle name</h3>
+                <p class="box__price">35 000 р.</p>
+                <form class="form__box">
+                    <button class="form__box__basket">
+                        <img src="#" alt="basket" class="box__basket__img">
+                        в корзину
+                    </button>
+                    <button class="form__box__fastbuy">
+                        <img src="#" alt="" class="box__fastbuy__img">
+                    </button>
+                </form>
+            </article>
+            <article class="novelties__box box">
+                <span class="novelties__box_label label ">new</span>
+                <img src="#" alt="" class="novelties__box__img box_img">
+                <h3 class="box__title">Bycicle name</h3>
+                <p class="box__price">35 000 р.</p>
+                <form class="form__box">
+                    <button class="form__box__basket">
+                        <img src="#" alt="basket" class="box__basket__img">
+                        в корзину
+                    </button>
+                    <button class="form__box__fastbuy">
+                        <img src="#" alt="" class="box__fastbuy__img">
+                    </button>
+                </form>
+            </article>
+        </section>
+        <section class="discount">
+            <h2 class="discount__title">Товары со скидкой</h2>
+            <article class="discount__box box">
+                <span class="discount__box_label label ">-10%</span>
+                <img src="#" alt="" class="discount__box__img box_img ">
+                <h3 class="box__title">Bycicle name</h3>
+                <small class="firs_price">42 700 р.</small> <!--Возможно ли использовать данный тег в этом месте?-->
+                <p class="box__price">35 000 р.</p>
+                <form class="form__box">
+                    <button class="form__box__basket">
+                        <img src="#" alt="basket" class="box__basket__img">
+                        в корзину
+                    </button>
+                    <button class="form__box__fastbuy">
+                        <img src="#" alt="" class="box__fastbuy__img">
+                    </button>
+                </form>
+            </article>
+            <article class="discount__box box">
+                <span class="discount__box_label label ">-10%</span>
+                <img src="#" alt="" class="discount__box__img box_img ">
+                <h3 class="box__title">Bycicle name</h3>
+                <small class="firs_price">42 700 р.</small> <!--Возможно ли использовать данный тег в этом месте?-->
+                <p class="box__price">35 000 р.</p>
+                <form class="form__box">
+                    <button class="form__box__basket">
+                        <img src="#" alt="basket" class="box__basket__img">
+                        в корзину
+                    </button>
+                    <button class="form__box__fastbuy">
+                        <img src="#" alt="" class="box__fastbuy__img">
+                    </button>
+                </form>
+            </article>
+            <article class="discount__box box">
+                <span class="discount__box_label label ">-10%</span>
+                <img src="#" alt="" class="discount__box__img box_img ">
+                <h3 class="box__title">Bycicle name</h3>
+                <small class="firs_price">42 700 р.</small> <!--Возможно ли использовать данный тег в этом месте?-->
+                <p class="box__price">35 000 р.</p>
+                <form class="form__box">
+                    <button class="form__box__basket">
+                        <img src="#" alt="basket" class="box__basket__img">
+                        в корзину
+                    </button>
+                    <button class="form__box__fastbuy">
+                        <img src="#" alt="" class="box__fastbuy__img">
+                    </button>
+                </form>
+            </article>
+            <article class="discount__box box">
+                <span class="discount__box_label label ">-10%</span>
+                <img src="#" alt="" class="discount__box__img box_img ">
+                <h3 class="box__title">Bycicle name</h3>
+                <small class="firs_price">42 700 р.</small> <!--Возможно ли использовать данный тег в этом месте?-->
+                <p class="box__price">35 000 р.</p>
+                <form class="form__box">
+                    <button class="form__box__basket">
+                        <img src="#" alt="basket" class="box__basket__img">
+                        в корзину
+                    </button>
+                    <button class="form__box__fastbuy">
+                        <img src="#" alt="" class="box__fastbuy__img">
+                    </button>
+                </form>
+            </article>
+
+        </section>
+    </main>
+
+    <aside class="sidebar">
+        <nav class="sidebar__nav">
+            <h3 class="sidebar__nav__title">Категории</h3>
+            <ul class="sidebar__nav__items">
+                <li class="sidebar__nav_item">
+                    <a href="#" class="sidebar__nav__link">
+                        <img src="#" alt="">
+                        Городские
+                    </a>
+                </li>
+                <li class="sidebar__nav_item">
+                    <a href="#" class="sidebar__nav__link">
+                        <img src="#" alt="">
+                        Горные
+                    </a>
+                </li>
+                <li class="sidebar__nav_item">
+                    <a href="#" class="sidebar__nav__link">
+                        <img src="#" alt="">
+                        Шосейные
+                    </a>
+                </li>
+                <li class="sidebar__nav_item">
+                    <a href="#" class="sidebar__nav__link">
+                        <img src="#" alt="">
+                        Трековые
+                    </a>
+                </li>
+                <li class="sidebar__nav_item">
+                    <a href="#" class="sidebar__nav__link">
+                        <img src="#" alt="">
+                        Аксессуары
+                    </a>
+                </li>
+                <li class="sidebar__nav_item">
+                    <a href="#" class="sidebar__nav__link">
+                        <img src="#" alt="">
+                        Запчасти
+                    </a>
+                </li>
+                <li class="sidebar__nav_item">
+                    <a href="#" class="sidebar__nav__link">
+                        <img src="#" alt="">
+                        Велоодежда
+                    </a>
+                </li>
+                <li class="sidebar__nav_item">
+                    <a href="#" class="sidebar__nav__link">
+                        <img src="#" alt="">
+                        Велоинструмент
+                    </a>
+                </li>
+
+
+
+            </ul>
+
+        </nav>
+        <div class="sidebar__banners">
+            <a href="#" class="sidebar__banners__link"><img src="#" alt="" class="sidebar__banners__img"></a>
+            <a href="#" class="sidebar__banners__link"><img src="#" alt="" class="sidebar__banners__img"></a>
+        </div>
+    </aside>
+</div>
+
+<footer>
+    <div class="footer_logo">
+        <img src="#" alt="logo" >
+    </div>
+    <div class="footer__menu">
+        <h3 class="footer__menu_title">Меню</h3>
+        <ul class="footer__menu_items">
+            <li class="footer__menu_item"><a href="#" class=" footer__menu_link">Главная</a></li>
+            <li class="footer__menu_item"><a href="#" class=" footer__menu_link">Каталог</a></li>
+            <li class="footer__menu_item"><a href="#" class=" footer__menu_link">Галерея</a></li>
+            <li class="footer__menu_item"><a href="#" class=" footer__menu_link">Акции</a></li>
+            <li class="footer__menu_item"><a href="#" class=" footer__menu_link">Контакты</a></li>
+        </ul>
+    </div>
+    <div class="footer__pay">
+        <h3 class="footer__pay_title">Способ оплаты</h3>
+        <ul class="footer__pay_items">
+            <li class="footer__pay_item">Наличными</li>
+            <li class="footer__pay_item">Visa или Mastercard</li>
+            <li class="footer__pay_item">В кредит</li>
+        </ul>
+    </div>
+    <div class="footer__contact">
+        <h4 class="footer__contact_title">Контактная информация</h4>
+        <ul class="footer__contact_items">
+            <li class="footer__contact_item">Телефон:8(499)654-98-79</li>
+            <li class="footer__contact_item">E-mail:info@nalabuten.ah</li>
+            <li class="footer__contact_item">Адрес:г.Москва Фантастический проезд д.234</li>
+        </ul>
+    </div>
+
+    <div class="copyright">
+        <small>&copy; Bicycle world 2018</small>
+    </div>
+</footer>
 </body>
 </html>
